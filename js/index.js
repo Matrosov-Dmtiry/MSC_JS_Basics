@@ -1,9 +1,7 @@
 let number = Number(prompt('Введите число'));
 
-if (number <= 0) {
-	console.log(number);
+if (number < 0) {
+	console.log(number/-1);
 } else if (number > 0) {
-	console.log(Number('-' + number));
-} else {
-	console.log('не число');
+	console.log(number);
 }
